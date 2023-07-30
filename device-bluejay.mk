@@ -230,6 +230,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
+ 
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+        NowPlayingOverlay
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
