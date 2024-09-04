@@ -11,6 +11,9 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 DERP_BUILDTYPE := Official
 TARGET_SUPPORTS_QUICK_TAP := true
+EXTRA_UDFPS_ICONS := true
+TARGET_IS_PIXEL := true
+TARGET_IS_PIXEL_6 := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
