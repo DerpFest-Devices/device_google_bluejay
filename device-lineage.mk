@@ -48,3 +48,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
+
+#Bcr
+$(call inherit-product, vendor/bcr/bcr.mk)
